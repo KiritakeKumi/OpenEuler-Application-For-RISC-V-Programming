@@ -17,7 +17,7 @@
 教学目标：使学生具备熟练的openEuler等Linux系统环境下应用程序设计、编写、移植、调试、运行跟踪的综合能力。
 
 ## 课程大纲
-[第一章 Linux和openEuler简介(10学时)]
+[第一章 Linux和openEuler，RISC-V简介(10学时)]
 
 [第二章 openEuler下C语言开发与调试(15学时)]
 
@@ -43,6 +43,8 @@
 | 2    | [第一章 第二讲  Linux内核基础知识简介(2学时)](./Chapter10/class1) |
 | 3    | [第一章 第三讲  Linux和openEuler的发展历史(1学时)](./Chapter1/class1) |
 | 4    | [第一章 第四讲  Linux和openEuler许可证和版权(1学时)](./Chapter1/class2) |
+|      | [第一章 第五讲 RISC-V的发展历史](./Chapter1/class2)          |
+|      | [第一章 第六讲 RISC-V软硬件生态](./Chapter1/class2)          |
 | 5    | [第一章 实训一  openEuler操作系统的安装(基于 待定* )(2学时)](./Chapter1/lab/class1) |
 | 6    | [第一章 实训二  使用QEMU安装RISC-V openEuler](./chapter1/lab/class3) |
 | 7    | [第二章 第一讲  VIM和GCC(2学时)](./Chapter2/class1)          |
@@ -92,26 +94,26 @@
 | 51   | [第八章 实训二  未修复漏洞静态检测工具设计与开发(2学时)](./Chapter8/lab/class2) |
 | 52   | [第八章 实训三  静态分析工具cppcheck使用与检测结果分析(2学时)](./Chapter8/lab/class3) |
 | 53   | [第八章 实训四  模糊测试工具设计与开发(2学时)](./Chapter8/lab/class4) |
-| 54   | [第九章 第一讲  RISC-V openEuler安装Docker](./chapter1/class2) | 
-| 55   | [第九章 第二讲  RPM基础知识](./chapter1/class3) | 
-| 56   | [第九章 实训一  安装和部署OSC](./chapter1/class4) | 
-| 57   | [第九章 实训二  OSC本地构建](./chapter1/class5) | 
-| 58   | [第九章 实训三  OSC结合git构建](./chapter1/class6) | 
-| 59   | [第九章 第一讲  修包流程](./chapter2/class1) | 
-| 60   | [第九章 第二讲  规则修包](./chapter2/class2) | 
-| 61   | [第九章 第三讲  第一个修包——log4j12](./chapter2/class3) | 
-| 62   | [第九章 第三讲 附一 修包实例——protobuf](./chapter2/class4) | 
-| 63   | [第九章 第三讲 附二 修包实例——k8s](./chapter2/class5) | 
-| 64   | [第九章 第三讲 附三 修包实例——rubygem-puma](./chapter2/class6) | 
-| 65   | [第九章 第四讲  实例分析——tensorflow](./chapter2/class7) | 
-| 66   | [第九章 实训四  在openEuler RISC-V QEMU上启动 XFCE](./chapter3/class1/README_1.md) | 
-| 67   | [第九章 实训五  制作 openEuler RISC-V 硬盘镜像](./chapter3/class2) | 
-| 68   | [第九章 实训六  openEuler RISC-V QEMU镜像制作脚本的编写](./chapter3/class3) | 
+| 54   | [第九章 第一讲  RISC-V openEuler安装Docker](./chapter1/class2) |
+| 55   | [第九章 第二讲  RPM基础知识](./chapter1/class3)              |
+| 56   | [第九章 实训一  安装和部署OSC](./chapter1/class4)            |
+| 57   | [第九章 实训二  OSC本地构建](./chapter1/class5)              |
+| 58   | [第九章 实训三  OSC结合git构建](./chapter1/class6)           |
+| 59   | [第九章 第一讲  修包流程](./chapter2/class1)                 |
+| 60   | [第九章 第二讲  规则修包](./chapter2/class2)                 |
+| 61   | [第九章 第三讲  第一个修包——log4j12](./chapter2/class3)      |
+| 62   | [第九章 第三讲 附一 修包实例——protobuf](./chapter2/class4)   |
+| 63   | [第九章 第三讲 附二 修包实例——k8s](./chapter2/class5)        |
+| 64   | [第九章 第三讲 附三 修包实例——rubygem-puma](./chapter2/class6) |
+| 65   | [第九章 第四讲  实例分析——tensorflow](./chapter2/class7)     |
+| 66   | [第九章 实训四  在openEuler RISC-V QEMU上启动 XFCE](./chapter3/class1/README_1.md) |
+| 67   | [第九章 实训五  制作 openEuler RISC-V 硬盘镜像](./chapter3/class2) |
+| 68   | [第九章 实训六  openEuler RISC-V QEMU镜像制作脚本的编写](./chapter3/class3) |
 | 69   | [第九章 实训七  openEuler RISC-V 内核编译](./chapter3/class4) |
-| 70   | [第九章 第五讲  Build openeuler on visionfive]() |
-| 71   | [第九章 第六讲  Prepare firmware for visionfive]() |
-| 72   | [第九章 第七讲  Prepare kernel and rootfs for visionfive]() | 
-| 73   | [第九章 第八讲  Prepare micro sd card for visionfive]() | 
+| 70   | [第九章 第五讲  Build openeuler on visionfive]()             |
+| 71   | [第九章 第六讲  Prepare firmware for visionfive]()           |
+| 72   | [第九章 第七讲  Prepare kernel and rootfs for visionfive]()  |
+| 73   | [第九章 第八讲  Prepare micro sd card for visionfive]()      |
 
 
 
