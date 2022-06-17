@@ -25,28 +25,31 @@
 
 [第四章 程序库(19学时)]
 
-[第五章 进程与线程(10学时)]
+[第五章 RISC-V程序构建(10学时)]
 
-[第六章 文件系统应用(10学时)]
+[第六章 进程与线程(10学时)]
 
-[第七章 网络应用编程(12学时)]
+[第七章 文件系统应用(10学时)]
 
-[第八章 安全应用编程(13学时)]
+[第八章 网络应用编程(12学时)]
 
-[第九章 针对RISC-V的程序移植(待定*)]
+[第九章 安全应用编程(13学时)]
+
+[第十章 针对RISC-V的程序移植(待定*)]
 
 **课表**
 
 | 序号 | 内容                                                         |
 | ---- | :----------------------------------------------------------- |
-| 1    | [第一章 第一讲  Linux内核的发展历史和GPL(2学时)](./Chapter10/class1) |
-| 2    | [第一章 第二讲  Linux内核基础知识简介(2学时)](./Chapter10/class1) |
-| 3    | [第一章 第三讲  Linux和openEuler的发展历史(1学时)](./Chapter1/class1) |
-| 4    | [第一章 第四讲  Linux和openEuler许可证和版权(1学时)](./Chapter1/class2) |
-|      | [第一章 第五讲 RISC-V的发展历史](./Chapter1/class2)          |
-|      | [第一章 第六讲 RISC-V软硬件生态](./Chapter1/class2)          |
+| 3    | [第一章 第一讲  了解 RISC-V(1学时)](./Chapter1/class1) |       |
+|      | [第一章 第二讲  RISC-V软硬件生态(1学时)](./Chapter1/class2)    |
+|      | [第一章 第三讲  RISC-V社区(1学时)](./Chapter1/class2)    |
+| 3    | [第一章 第四讲  Linux和openEuler的发展历史(1学时)](./Chapter1/class1) |
+| 3    | [第一章 第五讲  Linux和openEuler的发展历史(1学时)](./Chapter1/class1) |
+| 4    | [第一章 第六讲  Linux和openEuler许可证和版权(1学时)](./Chapter1/class2) |        |
 | 5    | [第一章 实训一  openEuler操作系统的安装(基于 待定* )(2学时)](./Chapter1/lab/class1) |
 | 6    | [第一章 实训二  使用QEMU安装RISC-V openEuler](./chapter1/lab/class3) |
+
 | 7    | [第二章 第一讲  VIM和GCC(2学时)](./Chapter2/class1)          |
 | 8    | [第二章 第二讲  MakeFile(1学时)](./Chapter2/class2)          |
 | 9    | [第二章 第三讲  应用层程序的调试(2学时)](./Chapter2/class3)  |
@@ -60,6 +63,7 @@
 | 17   | [第三章 实训一  Shell编程入门(4学时)](./Chapter3/lab/class1) |
 | 18   | [第三章 实训二  Shell系统管理(4学时)](./Chapter3/lab/class2) |
 | 19   | [第三章 实训三  Shell网络管理(2学时)](./Chapter3/lab/class3) |
+
 | 20   | [第四章 第一讲  程序库基础(2学时)](./Chapter4/class1)        |
 | 21   | [第四章 第二讲  创建库和使用库(2学时)](./Chapter4/class2)    |
 | 22   | [第四章 第三讲  Linux进程操作(2学时)](./Chapter4/class3)     |
@@ -67,6 +71,13 @@
 | 24   | [第四章 实训一  共享库开发(4学时)](./Chapter4/lab/class1)    |
 | 25   | [第四章 实训二  进程间通信开发(4学时)](./Chapter4/lab/class2) |
 | 26   | [第四章 实训三  系统文件操作开发(4学时)](./Chapter4/lab/class3) |
+
+|      | [第五章 第一讲  RISC-V交叉编译(2学时)](./Chapter4/class1)   |
+|      | [第五章 第二讲  RISC-V编译器工具链(2学时)](./Chapter4/class1)  |
+|      | [第五章 第二讲  工具链常见问题(2学时)](./Chapter4/class1)  |
+|      | [第五章 第三讲  使用LLVM构建一个RISC-V小程序(2学时)](./Chapter4/class1)    |
+|      | [第五章 第四讲  使用GCC构建一个RISC-V小程序(2学时)](./Chapter4/class1)    |
+
 | 27   | [第五章 第一讲  进程与线程基础(1学时)](./Chapter5/class1)    |
 | 28   | [第五章 第二讲  Linux进程控制(1学时)](./Chapter5/class2)     |
 | 29   | [第五章 第三讲  Linux进程间通信(1学时)](./Chapter5/class3)   |
@@ -94,17 +105,18 @@
 | 51   | [第八章 实训二  未修复漏洞静态检测工具设计与开发(2学时)](./Chapter8/lab/class2) |
 | 52   | [第八章 实训三  静态分析工具cppcheck使用与检测结果分析(2学时)](./Chapter8/lab/class3) |
 | 53   | [第八章 实训四  模糊测试工具设计与开发(2学时)](./Chapter8/lab/class4) |
+
 | 54   | [第九章 第一讲  RISC-V openEuler安装Docker](./chapter1/class2) |
 | 55   | [第九章 第二讲  RPM基础知识](./chapter1/class3)              |
 | 56   | [第九章 实训一  安装和部署OSC](./chapter1/class4)            |
 | 57   | [第九章 实训二  OSC本地构建](./chapter1/class5)              |
 | 58   | [第九章 实训三  OSC结合git构建](./chapter1/class6)           |
-| 59   | [第九章 第一讲  修包流程](./chapter2/class1)                 |
+| 59   | [第九章 第一讲  移植中的修包流程](./chapter2/class1)                 |
 | 60   | [第九章 第二讲  规则修包](./chapter2/class2)                 |
 | 61   | [第九章 第三讲  第一个修包——log4j12](./chapter2/class3)      |
-| 62   | [第九章 第三讲 附一 修包实例——protobuf](./chapter2/class4)   |
-| 63   | [第九章 第三讲 附二 修包实例——k8s](./chapter2/class5)        |
-| 64   | [第九章 第三讲 附三 修包实例——rubygem-puma](./chapter2/class6) |
+| 62   | [第九章 第三讲  附一 修包实例——protobuf](./chapter2/class4)   |
+| 63   | [第九章 第三讲  附二 修包实例——k8s](./chapter2/class5)        |
+| 64   | [第九章 第三讲  附三 修包实例——rubygem-puma](./chapter2/class6) |
 | 65   | [第九章 第四讲  实例分析——tensorflow](./chapter2/class7)     |
 | 66   | [第九章 实训四  在openEuler RISC-V QEMU上启动 XFCE](./chapter3/class1/README_1.md) |
 | 67   | [第九章 实训五  制作 openEuler RISC-V 硬盘镜像](./chapter3/class2) |
@@ -115,7 +127,8 @@
 | 72   | [第九章 第七讲  Prepare kernel and rootfs for visionfive]()  |
 | 73   | [第九章 第八讲  Prepare micro sd card for visionfive]()      |
 
-
+| 1    | [第十章 第一讲  Linux内核的发展历史和GPL(2学时)](./Chapter10/class1) |
+| 2    | [第十章 第二讲  Linux内核基础知识简介(2学时)](./Chapter10/class1) |
 
 ## Copyright
 
