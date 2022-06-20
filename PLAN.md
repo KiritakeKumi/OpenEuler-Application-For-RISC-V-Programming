@@ -9,7 +9,11 @@
 
 学时：1
 
-课程形式：PPT+视频
+课程形式：
+
+PPT（30页+）
+
+视频（45min）
 
 课程内容：
 
@@ -22,10 +26,16 @@ https://www.bilibili.com/video/BV1Q5411w7z5?p=3
 https://facstaff.susqu.edu/brakke/comparch-syl.txt
 
 
+
+
 ### 第一章 第二讲  RISC-V软硬件生态
 学时：1
 
-课程形式：PPT+视频
+课程形式：
+
+PPT（30页+）
+
+视频（45min）
 
 课程内容：
 
@@ -39,7 +49,11 @@ https://www.bilibili.com/video/BV1Q5411w7z5?p=4
 ### 第一章 第三讲  RISC-V社区
 学时：1
 
-课程形式：PPT+视频
+课程形式：
+
+PPT（30页+）
+
+视频（45min）
 
 课程内容：
 
