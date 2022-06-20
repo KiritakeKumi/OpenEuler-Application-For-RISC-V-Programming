@@ -13,7 +13,9 @@
 
 课程内容：
 https://www.edx.org/course/introduction-to-risc-v
-
+https://www.bilibili.com/video/BV1Q5411w7z5?p=2
+https://www.bilibili.com/video/BV1Q5411w7z5?p=3
+https://facstaff.susqu.edu/brakke/comparch-syl.txt
 
 
 ### 第一章 第二讲  RISC-V软硬件生态
@@ -22,6 +24,9 @@ https://www.edx.org/course/introduction-to-risc-v
 课程形式：PPT+视频
 
 课程内容：
+https://www.edx.org/course/introduction-to-risc-v
+https://www.bilibili.com/video/BV1Q5411w7z5?p=3
+https://www.bilibili.com/video/BV1Q5411w7z5?p=4
 
 
 ### 第一章 第三讲  RISC-V社区
@@ -30,6 +35,9 @@ https://www.edx.org/course/introduction-to-risc-v
 课程形式：PPT+视频
 
 课程内容：
+https://www.edx.org/course/introduction-to-risc-v
+
+
 
 
 ### 第一章 第四讲  Linux和openEuler的发展历史
@@ -53,7 +61,7 @@ https://www.edx.org/course/introduction-to-risc-v
 
 课程内容：
 
-### 第一章 实训一  openEuler操作系统的安装
+### 第一章 实训一  openEuler操作系统在RISC-V开发板上的安装
 学时：
 
 课程形式：PPT+视频+操作文档
@@ -66,3 +74,4 @@ https://www.edx.org/course/introduction-to-risc-v
 课程形式：PPT+视频+操作文档
 
 课程内容：
+https://www.edx.org/course/introduction-to-risc-v
