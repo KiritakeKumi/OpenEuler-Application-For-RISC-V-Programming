@@ -12,9 +12,13 @@
 课程形式：PPT+视频
 
 课程内容：
+
 https://www.edx.org/course/introduction-to-risc-v
+
 https://www.bilibili.com/video/BV1Q5411w7z5?p=2
+
 https://www.bilibili.com/video/BV1Q5411w7z5?p=3
+
 https://facstaff.susqu.edu/brakke/comparch-syl.txt
 
 
@@ -24,8 +28,11 @@ https://facstaff.susqu.edu/brakke/comparch-syl.txt
 课程形式：PPT+视频
 
 课程内容：
+
 https://www.edx.org/course/introduction-to-risc-v
+
 https://www.bilibili.com/video/BV1Q5411w7z5?p=3
+
 https://www.bilibili.com/video/BV1Q5411w7z5?p=4
 
 
@@ -35,6 +42,7 @@ https://www.bilibili.com/video/BV1Q5411w7z5?p=4
 课程形式：PPT+视频
 
 课程内容：
+
 https://www.edx.org/course/introduction-to-risc-v
 
 
