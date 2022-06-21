@@ -96,4 +96,7 @@ https://www.edx.org/course/introduction-to-risc-v
 课程形式：PPT+视频+操作文档
 
 课程内容：
+
 https://www.edx.org/course/introduction-to-risc-v
+
+https://github.com/openeuler-mirror/RISC-V/blob/master/doc/tutorials/vm-qemu-oErv.md
