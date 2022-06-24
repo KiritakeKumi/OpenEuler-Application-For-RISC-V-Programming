@@ -11,10 +11,10 @@
 
 课程形式：
 
-PPT（30页+）: 
+PPT: 
 
 
-视频（45min）:
+视频:
 
 
 课程内容：
@@ -37,9 +37,10 @@ https://riscv.org/about/history/
 
 课程形式：
 
-PPT（30页+）
+PPT: 
 
-视频（45min）
+
+视频:
 
 课程内容：
 
@@ -55,9 +56,10 @@ https://www.bilibili.com/video/BV1Q5411w7z5?p=4
 
 课程形式：
 
-PPT（30页+）
+PPT: 
 
-视频（45min）
+
+视频:
 
 课程内容：
 
