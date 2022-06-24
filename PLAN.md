@@ -11,9 +11,11 @@
 
 课程形式：
 
-PPT（30页+）
+PPT（30页+）: 
 
-视频（45min）
+
+视频（45min）:
+
 
 课程内容：
 
@@ -24,6 +26,8 @@ https://www.bilibili.com/video/BV1Q5411w7z5?p=2
 https://www.bilibili.com/video/BV1Q5411w7z5?p=3
 
 https://facstaff.susqu.edu/brakke/comparch-syl.txt
+
+https://riscv.org/about/history/
 
 
 
@@ -60,6 +64,10 @@ PPT（30页+）
 https://www.edx.org/course/introduction-to-risc-v
 
 
+
+
+
+## Week 2
 
 
 ### 第一章 第四讲  Linux和openEuler的发展历史
