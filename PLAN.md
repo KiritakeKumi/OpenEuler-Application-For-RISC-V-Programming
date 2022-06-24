@@ -11,7 +11,7 @@
 
 课程形式：
 
-PPT: 
+PPT: https://github.com/KiritakeKumi/OpenEuler-Application-For-RISC-V-Programming/blob/main/Files/Chapter1/Class1/%E7%AC%AC%E4%B8%80%E7%AB%A0_%E7%AC%AC%E4%B8%80%E8%AE%B2_%E4%BA%86%E8%A7%A3%20RISC-V.pptx
 
 
 视频:
@@ -37,7 +37,7 @@ https://riscv.org/about/history/
 
 课程形式：
 
-PPT: 
+PPT: https://github.com/KiritakeKumi/OpenEuler-Application-For-RISC-V-Programming/blob/main/Files/Chapter1/Class2/%E7%AC%AC%E4%B8%80%E7%AB%A0_%E7%AC%AC%E4%BA%8C%E8%AE%B2_RISC-V%E8%BD%AF%E7%A1%AC%E4%BB%B6%E7%94%9F%E6%80%81.pptx
 
 
 视频:
@@ -56,7 +56,7 @@ https://www.bilibili.com/video/BV1Q5411w7z5?p=4
 
 课程形式：
 
-PPT: 
+PPT: https://github.com/KiritakeKumi/OpenEuler-Application-For-RISC-V-Programming/blob/main/Files/Chapter1/Class3/%E7%AC%AC%E4%B8%80%E7%AB%A0_%E7%AC%AC%E4%B8%89%E8%AE%B2_RISC-V%E7%A4%BE%E5%8C%BA.pptx
 
 
 视频:
