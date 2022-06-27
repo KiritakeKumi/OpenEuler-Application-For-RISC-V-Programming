@@ -41,13 +41,14 @@
 
 | 序号 | 内容                                                         |
 | ---- | :----------------------------------------------------------- |
-| 3    | [第一章 第一讲  了解 RISC-V(1学时)](./Chapter1/class1) |       |
+| 3    | [第一章 第一讲  了解 RISC-V(1学时)](./Chapter1/class1) |       
 |      | [第一章 第二讲  RISC-V软硬件生态(1学时)](./Chapter1/class2)    |
 |      | [第一章 第三讲  RISC-V社区(1学时)](./Chapter1/class2)    |
 | 3    | [第一章 第四讲  Linux和openEuler的发展历史(1学时)](./Chapter1/class1) |
 | 3    | [第一章 第五讲  Linux和openEuler的发展历史(1学时)](./Chapter1/class1) |
 | 4    | [第一章 第六讲  Linux和openEuler许可证和版权(1学时)](./Chapter1/class2) |        |
 | 5    | [第一章 实训一  openEuler操作系统的安装(基于 待定* )(2学时)](./Chapter1/lab/class1) |
+
 | 6    | [第一章 实训二  使用QEMU安装RISC-V openEuler](./chapter1/lab/class3) |
 
 | 7    | [第二章 第一讲  VIM和GCC(2学时)](./Chapter2/class1)          |
@@ -58,6 +59,7 @@
 | 12   | [第二章 实训二  Makefile使用(2学时)](./Chapter2/lab/class2)  |
 | 13   | [第二章 实训三  程序调式练习(2学时)](./Chapter2/lab/class3)  |
 | 14   | [第二章 实训四  git练习(2学时)](./Chapter2/lab/class4)       |
+
 | 15   | [第三章 第一讲  Shell编程基础(2学时)](./Chapter3/class1)     |
 | 16   | [第三章 第二讲  Shell编程实例(2学时)](./Chapter3/class2)     |
 | 17   | [第三章 实训一  Shell编程入门(4学时)](./Chapter3/lab/class1) |
