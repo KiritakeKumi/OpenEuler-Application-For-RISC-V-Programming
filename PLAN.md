@@ -1,10 +1,6 @@
 
 # 《openEuler在RISC-V上的应用编程技术》 制作计划
 
-
-## Week 1
-
-
 ### 第一章 第一讲  了解 RISC-V
 
 学时：1
@@ -69,15 +65,20 @@ https://www.edx.org/course/introduction-to-risc-v
 
 
 
-## Week 2
-
-
 ### 第一章 第四讲  Linux和openEuler的发展历史
 学时：
 
-课程形式：PPT+视频
+
+
+课程形式：
+
+MD:
+
 
 课程内容：
+
+
+
 
 ### 第一章 第五讲  Linux和openEuler的发展历史
 学时：
