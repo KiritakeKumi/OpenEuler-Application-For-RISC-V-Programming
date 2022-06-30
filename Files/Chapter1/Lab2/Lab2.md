@@ -123,7 +123,6 @@ qemu-system-riscv64 \
 这里以主机端口转发的方式实现网络功能。为 SSH 转发的 22222 端口也可改为自己需要的端口号
 
 
-## 欢迎使用
 
 - 登录用户：`root`
 - 默认密码：`openEuler12#$`
@@ -131,6 +130,11 @@ qemu-system-riscv64 \
 建议在登录成功之后立即修改 root 用户密码
 
 
+由于目前包库发生了一点更改 需要在登录后修改文件
+
+`vim /etc/yum.repos.d/openEuler.repo`
+
+将原来的地址修改为 `https://mirror.iscas.ac.cn/openeuler-sig-riscv/epol/extra/`
 
 
 
