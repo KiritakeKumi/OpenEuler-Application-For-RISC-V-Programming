@@ -70,7 +70,7 @@ https://www.edx.org/course/introduction-to-risc-v
 
 课程形式：
 
-MD: 
+MD: https://github.com/KiritakeKumi/OpenEuler-Application-For-RISC-V-Programming/blob/main/Files/Chapter1/Class4/Class4.md
 
 
 
@@ -79,7 +79,7 @@ MD:
 
 课程形式：
 
-MD: 
+MD: https://github.com/KiritakeKumi/OpenEuler-Application-For-RISC-V-Programming/blob/main/Files/Chapter1/Class5/Class5.md
 
 
 
