@@ -4,6 +4,8 @@
 
 ## 概述
 
+![Linux官方的吉祥物，一只叫Tux的企鹅](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NewTux.svg/150px-NewTux.svg.png)
+
 Linux是一种自由和开放源码的类UNIX操作系统。该操作系统的内核由林纳斯·托瓦兹在1991年10月5日首次发布，在加上用户空间的应用程序之后，成为Linux操作系统。
 Linux也是自由软件和开放源代码软件发展中最著名的例子。
 只要遵循GNU 通用公共许可证（GPL），任何个人和机构都可以自由地使用Linux的所有底层源代码，也可以自由地修改和再发布。
@@ -15,8 +17,11 @@ Linux最初是作为支持英特尔x86架构的个人电脑的一个自由操作
 
 通常情况下，Linux被打包成供个人计算机和服务器使用的Linux发行版，一些流行的主流Linux发布版，包括Debian（及其派生版本Ubuntu、Linux Mint）、Fedora（及其相关版本Red Hat Enterprise Linux、CentOS）和openSUSE等。Linux发行版包含Linux内核和支撑内核的实用程序和库，通常还带有大量可以满足各类需求的应用程序。个人计算机使用的Linux发行版通常包含X Window和一个相应的桌面环境，如GNOME或KDE。桌面Linux操作系统常用的应用程序，包括Firefox网页浏览器、LibreOffice办公软件、GIMP图像处理工具等。由于Linux是自由软件，任何人都可以创建一个符合自己需求的Linux发行版。
 
+![img](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linux_kernel_ubiquity.svg/1920px-Linux_kernel_ubiquity.svg.png)
+
 ## 历史
 
+![img](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Linus_Torvalds_%28cropped%29.jpg/170px-Linus_Torvalds_%28cropped%29.jpg)
 
 1991年，林纳斯·托瓦兹在赫尔辛基大学上学时，对操作系统很好奇。他对MINIX只允许在教育上使用很不满（在当时MINIX不允许被用作任何商业使用），于是他便开始写他自己的操作系统，这就是后来的Linux内核。
 
@@ -38,6 +43,8 @@ Linux的标志和吉祥物是一只名字叫做Tux的企鹅，标志的由来有
 
 ### Debian
 
+![Debian OpenLogo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Debian-OpenLogo.svg/80px-Debian-OpenLogo.svg.png)
+
 Debian是完全由自由软件组成的类UNIX操作系统，其包含的多数软件使用GNU通用公共许可协议授权，并由Debian计划的参与者组成团队对其进行打包、开发与维护。
 
 Debian计划最初由伊恩·默多克于1993年发起，Debian 0.01版在1993年9月15日发布，而其第一个稳定版本则在1996年发布。
@@ -46,8 +53,9 @@ Debian计划最初由伊恩·默多克于1993年发起，Debian 0.01版在1993�
 
 作为最早的Linux发行版之一，Debian在创建之初便被定位为在GNU计划的精神指导下进行公开开发并自由发布的项目。该决定吸引自由软件基金会的注意与支持，他们为该项目提供从1994年11月至1995年11月为期一年的赞助。赞助终止后，Debian计划创立非营利机构Software in the Public Interest以提供支持并令其持有Debian商标作为保护机构。Debian也接受世界多个非营利组织的资金支持。
 
-
 ### Ubuntu
+
+![Ubuntu-logo-2022.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Ubuntu-logo-2022.svg/250px-Ubuntu-logo-2022.svg.png)
 
 
 Ubuntu是基于Debian，以桌面应用为主的Linux发行版。Ubuntu有三个正式版本，包括桌面版、服务器版及用于物联网设备和机器人的Core版。前述三个版本既能安装于实体电脑，也能安装于虚拟电脑。从17.10版本开始，Ubuntu以GNOME为默认桌面环境。
@@ -58,8 +66,9 @@ Ubuntu由英国Canonical公司发布，他们提供商业支持。它是基于�
 
 Canonical由南非企业家Mark Shuttleworth创立。Canonical通过销售与Ubuntu相关的技术支持和其他服务来产生收益。Ubuntu项目公开承诺开源软件开发的原则；鼓励人们使用自由软件，研究它的运作原理，改进和分发。
 
-
 ### CentOS
+
+![Centos-logo-light.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Centos-logo-light.svg/200px-Centos-logo-light.svg.png)
 
 CentOS（Community Enterprise Operating System）是Linux发行版之一，它是来自于Red Hat Enterprise Linux（RHEL）依照开放源代码规定发布的源代码所编译而成。由于出自同样的源代码，因此有些要求高度稳定性的服务器以CentOS替代商业版的Red Hat Enterprise Linux使用。
 两者的不同，在于CentOS并不包含封闭源代码软件。CentOS 对上游代码的主要修改是为了移除不能自由使用的商标。2014年，CentOS宣布与Red Hat合作，但CentOS将会在新的委员会下继续运作，并不受RHEL的影响。
@@ -70,6 +79,8 @@ CentOS开发团队于2020年12月8日宣布，传统的CentOS 8将仅维护至20
 
 ### Arch Linux
 
+![Arch Linux logo.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Arch_Linux_logo.svg/250px-Arch_Linux_logo.svg.png)
+
 Arch Linux是一个独立开发的 x86-64 通用 GNU/Linux 发行版，它致力于通过滚动发布来提供大多数软件的最新稳定版本。默认安装是一个最小的基本系统，由用户配置添加有意需要的内容。Arch Linux 使用pacman作为包管理器。
 
 Arch Linux采用滚动更新。Arch Linux 努力维护其软件的最新稳定版本，只要可以合理地避免系统包损坏。
@@ -79,6 +90,8 @@ Arch Linux 以社区 Wiki 的形式提供文档，称为 ArchWiki（页面存档
 Arch Linux 项目注力于简洁主义，其贡献在于对发行版的组件提供具有良好注释的配置文件，而非带有图形界面的配置工具。因此该发行版被称为适合“不惧怕命令行的中高级Linux用户”。
 
 ### openSUSE
+
+![OpenSUSE Logo.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/OpenSUSE_Logo.svg/150px-OpenSUSE_Logo.svg.png)
 
 openSUSE，前身为SUSE Linux和SuSE Linux Professional，是一个Linux发行版计划，由SUSE Linux GmBH与其他公司赞助。
 openSUSE在全世界被广泛使用，尤其是在德国。它的开发重心是为软件开发者和系统管理者创造适用的开放源代码的工具，并提供易于使用的桌面环境和功能丰富的服务器环境。
@@ -91,8 +104,39 @@ Linux发行版一直被用来作为服务器的操作系统，并且已经在该
 
 Linux发行版也经常使用作为超级计算机的操作系统，2010年11月公布的超级计算机前500强，有459个（91.8％）运行Linux发行版。曾经是世界上最强大的超级计算机——IBM的红杉（IBM Sequoia），已于2011年交付劳伦斯利福摩尔国家实验室，并于2012年6月开始运作，也是选择Linux作为操作系统。
 
+![U.S. Department of Energy - Science - 477 022 010 (9444538239).jpg](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/U.S._Department_of_Energy_-_Science_-_477_022_010_%289444538239%29.jpg/1280px-U.S._Department_of_Energy_-_Science_-_477_022_010_%289444538239%29.jpg)
+
 在智能手机、平板电脑等移动设备方面，Linux也得到重要发展，基于Linux内核的Android操作系统已经超越Apple的iOS操作系统，成为当今全球最流行的智能手机操作系统。在2010年第三季度，销售全球的全部智能手机中使用Android的占据25.5%（所有的基于Linux的手机操作系统在这段时间为27.6%）。
 
 Linux的低成本、强大的定制功能以及良好的移植性能，使得Linux在嵌入式系统方面也得到广泛应用。思科在网络防火墙和路由器也使用了定制的Linux。
 
 
+## openEuler
+
+EulerOS是华为基于CentOS源代码，面向企业应用环境开发的一个商用Linux发行版。
+
+2019年9月，华为宣布EulerOS开源，开源名称为openEuler（开源欧拉）。华为在Gitee上附源代码发布EulerOS的社区版本openEuler。
+
+2021年11月初，华为向开放原子开源基金会（OpenAtom Foundation）捐赠了EulerOS。
+
+
+
+## 黑客文化
+
+
+本讲向大家介绍了Linux的历史，其实在创建Linux历史中做出很大贡献的人大多数是我们心目中的黑客。
+
+黑客在美国有两个词hacker和cracker，这两个词是有明确的区别。对系统搞破坏的、搞数据偷窃等的人称为cracker。而hacker一般指对操作系统有研究、做出创造性贡献的人。
+
+在上世纪 Dennis Ritchie 开始就有了黑客文化，这种文化可以概括为对技术和自由的极致追求。
+
+这里主要有四个方面： 
+
+   
+   1. 坚持开放，反对封闭  这里举例子来说明，贝尔实验室开发的Multics限制人们使用，当时AT&T提出版权制度，微软也是，我们一直看   	不到Windows操作系统的源码。对黑客来说，这些就是他的敌人。  
+
+   2. 追求自由，反对限制  这就是我们前面提到的Copyright，Copyleft。   还有，Richard Stallman 提出的Free as in freedom，这是指软件无论是否收费，必须要保证我的自由，总而言之，要的是自由。free在英文里有两种意思，自由或免费。Richard Stallman等人明确提出freesoftware中的free是自由，不是免费的意思。     
+
+   3. 敢于独立创造，不迷信权威  这里举一个例子，年仅22岁的Linus和 学术泰斗Andrew S. Tanenbaum曾经有一场纯粹的技术论战。Linus认为Linux是一个单体内核操作系统即是宏内核操作系统，Tanenbaum认为微内核操作系统Minix比宏内核操作系统Linux更优越，宏内核操作系统无论从架构还是设计理念上是过时的，而且Tanenbaum从学术方面做了一个论证，证明Linux不具有扩展性，不能适应于未来的发展趋势。但是Linus没有畏惧于Tanenbaum的学术权威，他认为Minix不具有实用性，设计理念虽好，但在硬件平台上无法达到宏内核的性能。最后论战结果是谁都不服谁。后来的20年中实践证明Linux比Minix实用性上要好很多。 
+
+   4. 视物质财富如粪土  这对真正黑客来说是这样的。他们对财富看得非常单薄，对他们自己的贡献或荣誉看得很重。  我们平时看到的微软是缩写成MS，但在黑客社区将微软称之为M$，就是many dollar，就是很多钱，黑客们觉得这样是很愚昧的。他们只是把在社区的贡献得到的认可看得很重要。  Linux创始人Linus本人现在还活跃在Linux内核社区里，在社区里起辅导作用。社区里有人把发现的一些很隐蔽的bug发给他，他能够在很短的时间内看出bug发生在内核哪一行，这是很不容易的。  为什么说不容易了。  大家知道现在Linux内核有多少行代码？是1500多万行。可以想象Linus对这1500万行了如指掌。Linus对Linux贡献很大，但他本人并没有从Linux得到太多财富，也不像比尔盖茨成为世界首富。这就是黑客文化。  
