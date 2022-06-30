@@ -87,7 +87,13 @@ MD: https://github.com/KiritakeKumi/OpenEuler-Application-For-RISC-V-Programming
 ### 第一章 实训一  openEuler操作系统在RISC-V开发板上的安装
 学时：
 
-课程形式：PPT+视频+操作文档
+课程形式：
+
+PPT:
+
+视频:
+
+MD:
 
 课程内容：
 
@@ -95,7 +101,13 @@ MD: https://github.com/KiritakeKumi/OpenEuler-Application-For-RISC-V-Programming
 ### 第一章 实训二  使用QEMU安装RISC-V openEuler
 学时:
 
-课程形式：PPT+视频+操作文档
+课程形式:
+
+PPT:
+
+视频:
+
+MD:
 
 课程内容：
 
