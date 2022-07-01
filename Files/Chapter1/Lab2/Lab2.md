@@ -20,7 +20,7 @@
 
 在进行下一步之前建议预防性安装一下依赖包
 
-`sudo apt-get install libpixman-1-dev zlib1g-dev pkg-config libglib2.0-dev sudo apt-get install pkg-config ninja-build`
+`sudo apt-get install libpixman-1-dev zlib1g-dev pkg-config libglib2.0-dev pkg-config ninja-build`
 
 
 
