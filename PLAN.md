@@ -93,13 +93,13 @@ PPT:
 
 视频:
 
-MD:
+MD:https://github.com/KiritakeKumi/OpenEuler-Application-For-RISC-V-Programming/blob/main/Files/Chapter1/Lab1/Lab1.md
 
-课程内容：
+
 
 
 ### 第一章 实训二  使用QEMU安装RISC-V openEuler
-学时:
+学时:1
 
 课程形式:
 
@@ -107,9 +107,10 @@ PPT:
 
 视频:
 
-MD:
+MD:https://github.com/KiritakeKumi/OpenEuler-Application-For-RISC-V-Programming/blob/main/Files/Chapter1/Lab2/Lab2.md
 
-课程内容：
+
+参考内容：
 
 https://www.edx.org/course/introduction-to-risc-v
 
