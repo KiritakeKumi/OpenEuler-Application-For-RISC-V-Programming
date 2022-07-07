@@ -42,7 +42,7 @@
 | 序号 | 内容                                                         |
 | ---- | :----------------------------------------------------------- |
 | 3    | [第一章 第一讲  了解 RISC-V(1学时)](./Chapter1/class1) |       
-|      | [第一章 第二讲  RISC-V软硬件生态(1学时)](./Chapter1/class2)    |
+|      | [第一章 第二讲  RISC-V ISA 介绍(1学时)](./Chapter1/class2)    |
 |      | [第一章 第三讲  RISC-V社区(1学时)](./Chapter1/class2)    |
 | 3    | [第一章 第四讲  Linux和openEuler的发展历史(1学时)](./Chapter1/class1) |
 | 3    | [第一章 第五讲  Linux和openEuler的发展历史(1学时)](./Chapter1/class1) |
