@@ -115,3 +115,34 @@ MD:https://github.com/KiritakeKumi/OpenEuler-Application-For-RISC-V-Programming/
 https://www.edx.org/course/introduction-to-risc-v
 
 https://github.com/openeuler-mirror/RISC-V/blob/master/doc/tutorials/vm-qemu-oErv.md
+
+
+
+### 第二章 第一讲  VIM和GCC
+
+学时:1
+
+课程形式:
+
+PPT:
+
+视频:
+
+MD:
+
+参考内容：
+
+
+### 第二章 第二讲  MakeFile
+
+学时:1
+
+课程形式:
+
+PPT:
+
+视频:
+
+MD:
+
+参考内容：
