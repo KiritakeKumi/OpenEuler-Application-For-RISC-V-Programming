@@ -49,6 +49,7 @@
 | 4    | [第一章 第六讲  Linux和openEuler许可证和版权(1学时)](./Chapter1/class2) |        |
 | 5    | [第一章 实训一  openEuler操作系统的安装(基于 待定* )(2学时)](./Chapter1/lab/class1) |
 | 6    | [第一章 实训二  使用QEMU安装RISC-V openEuler](./chapter1/lab/class3) |
+| 6    | [第一章 实训三  RISC-V交叉编译](./chapter1/lab/class3) |
 | 7    | [第二章 第一讲  VIM和GCC(2学时)](./Chapter2/class1)          |
 | 8    | [第二章 第二讲  MakeFile(1学时)](./Chapter2/class2)          |
 | 9    | [第二章 第三讲  应用层程序的调试(2学时)](./Chapter2/class3)  |
