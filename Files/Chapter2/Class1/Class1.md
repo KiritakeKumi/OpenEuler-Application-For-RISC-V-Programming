@@ -4,6 +4,8 @@
 
 ### 基础介绍
 
+[![Vimlogo.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/64px-Vimlogo.svg.png)](https://zh.wikipedia.org/wiki/File:Vimlogo.svg)
+
 
 Vim是从vi发展出来的一个文本编辑器。其代码补完、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用。和Emacs并列成为类Unix系统用户最喜欢的编辑器。
 
@@ -92,8 +94,9 @@ Evim（Easy Vim）是一个特殊的GUI模式用来尽量的表现的和"无模�
 
 ## GCC
 
-
 ### 基础介绍
+
+![GNU Compiler Collection logo.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/GNU_Compiler_Collection_logo.svg/100px-GNU_Compiler_Collection_logo.svg.png)
 
 GNU编译器套装（英语：GNU Compiler Collection，缩写为GCC），指一套编程语言编译器，以GPL及LGPL许可证所发行的自由软件，也是GNU计划的关键部分，也是GNU工具链的主要组成部分之一。GCC（特别是其中的C语言编译器）也常被认为是跨平台编译器的事实标准。1985年由理查德·马修·斯托曼开始发展，现在由自由软件基金会负责维护工作。
 
@@ -134,105 +137,9 @@ Go
 
 支持的处理器架构
 
-GCC目前支持下列处理器架构（以4.1版为准）：
 
-Alpha
 
-ARM
-
-Atmel AVR
-
-Blackfin
-
-H8/300
-
-IA-32（x86）与x86-64
-
-IA-64 例如：Itanium
-
-MorphoSys家族
-
-Motorola 68000
-
-Motorola 88000
-
-MIPS与龙芯
-
-PA-RISC
-
-PDP-11
-
-PowerPC
-
-System/370，System/390
-
-SuperH
-
-HC12
-
-SPARC
-
-VAX
-
-Renesas R8C／M16C／M32C家族
-
-较不知名的处理器架构也在官方发布版本中支持：
-
-A29K
-
-ARC
-
-C4x
-
-CRIS
-
-D30V
-
-DSP16xx
-
-FR-30
-
-FR-V
-
-Intel i960
-
-IP2000
-
-M32R
-
-68HC11
-
-MCORE
-
-MMIX
-
-MN10200
-
-MN10300
-
-NS32K
-
-ROMP
-
-Stormy16
-
-V850
-
-Xtensa
-
-由FSF个别维护的GCC处理器架构：
-
-D10V
-
-MicroBlaze
-
-PDP-10
-
-MSP430
-
-Z8000
-
-NEC SX-9 并发向量处理机
+![SharedScreenshot.jpg](https://img.mxpkx.com/images/2022/07/08/SharedScreenshot.jpg)
 
 
 ### 使用方法
@@ -260,14 +167,18 @@ gcc 与 g++ 分别是 gnu 的 c & c++ 编译器 gcc/g++ 在执行编译工作的
 
 例子用法:
 
-gcc -x c hello.pig 　　
+gcc -x c hello.pig 　
+
+
 -x none filename
 
 关掉上一个选项，也就是让gcc根据文件名后缀，自动识别文件类型 。
 
 例子用法:
 
-gcc -x c hello.pig -x none hello2.c 　　
+gcc -x c hello.pig -x none hello2.c 　
+
+
 -c
 
 只激活预处理,编译,和汇编,也就是他只把程序做成obj文件
@@ -302,16 +213,16 @@ gcc -E hello.c | more
 
 例子用法:
 
-
 gcc -o hello.exe hello.c (哦,windows用习惯了) 
 　　gcc -o hello.asm -S hello.c
+
 -pipe
 
 
 使用管道代替编译中临时文件, 在使用非 gnu 汇编工具的时候, 可能有些问题。
 
-
 gcc -pipe -o hello.exe hello.c 
+
 -ansi
 
 关闭 gnu c中与 ansi c 不兼容的特性, 激活 ansi c 的专有特性（包括禁止一些 asm inline typeof 关键字, 以及 UNIX,vax 等预处理宏）。
