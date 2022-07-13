@@ -1,5 +1,3 @@
-
-
 # 实训三：RISC-V交叉编译
 
 ## 在非RISC-V平台上编译RISC-V程序
@@ -10,7 +8,7 @@
 
 ```shell
 $ sudo apt update
-$ sudo apt install build-essential gcc make perl dkms git gcc-riscv64-unknown-elf gdb-multiarch qemu-system-misc
+$ sudo apt install build-essential gcc make perl dkms git gcc-riscv64-linux-gnu gdb-multiarch qemu-user
 ```
 
 1. cd到代码目录，此处以用户“~/code”进行举例。
@@ -39,7 +37,7 @@ $ sudo apt install build-essential gcc make perl dkms git gcc-riscv64-unknown-el
 3. 交叉编译出RISC-V平台可运行的二进制文件
 
    ```shell
-   $ riscv64-unknown-elf-gcc -march=rv32ima -mabi=ilp32 hello.c -o hello.out
+   $ riscv64-linux-gnu-gcc  hello.c -o hello.out
    ```
 
 4. 查看hello.out文件的类型
@@ -51,7 +49,7 @@ $ sudo apt install build-essential gcc make perl dkms git gcc-riscv64-unknown-el
 5. 使用QEMU用户模式执行hello.out
 
    ```shell
-   $ qemu-system-misc ./hello.out
+   $ qemu-riscv64 -L /usr/riscv64-linux-gnu/ hello.out
    Hello, world!
    ```
 
