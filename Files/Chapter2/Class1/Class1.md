@@ -1,4 +1,4 @@
-# 第二章 第一讲  VIM和GCC
+# 第二章 第一讲  RISC-V下的VIM和GCC
 
 ## VIM
 

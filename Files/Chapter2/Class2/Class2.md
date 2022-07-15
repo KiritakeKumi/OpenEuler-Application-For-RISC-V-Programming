@@ -1,4 +1,4 @@
-# 第二章 第二讲  MakeFile
+# 第二章 第二讲  RISC-V下的MakeFile
 
 ## Make介绍
 
