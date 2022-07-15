@@ -34,17 +34,17 @@ Makefile的依赖关系：
 
 依赖关系定义了最终应用程序里的每个文件与源文件之间的关系。每个依赖关系由一个目标和一组该目标所依赖的源文件组成。规则则描述了如何通过这些依赖关系创建目标。依赖关系的写法如下：先写目标的名称，后面紧跟着一个冒号，接着是空格或制表符，最后是用空格或制表符隔开的文件列表，如：
 
-myapp：main.o my.o
+    myapp：main.o my.o
 
-main.o: main.c a.h
+    main.o: main.c a.h
 
-my.o: my.c b.h
+    my.o: my.c b.h
 
 它表示目标myapp依赖于main.o和my.o，而main.o依赖于main.c和a.h，等等。这组依赖关系形成一个层次结构，它显示了源文件之间的关系，如果a.h发生了变化，就需要重新编译main.o。
 
 Makefile的规则：
 
-arget ... : prerequisites ... 
+    arget ... : prerequisites ... 
 
             command 
 
@@ -53,19 +53,19 @@ target也就是一个目标文件，可以是Object File，也可以是执行文
 这是一个文件的依赖关系，也就是说，target这一个或多个的目标文件依赖于prerequisites中的文件，其生成规则定义在command中。说白一点就是说，prerequisites中如果有一个以上的文件比target文件要新的话，command所定义的命令就会被执行。这就是Makefile的规则。也就是Makefile中最核心的内容。
 一个简单的Makefile文件：
 
-myapp: main.o my.o
+    myapp: main.o my.o
 
 	gcc –o myapp main.o my.o
 
-main.o: main.c a.h
+    main.o: main.c a.h
 
 	gcc –c main.c 
 
-my.o : my.c b.h
+    my.o : my.c b.h
 
 	gcc –c my.c 
 
-clean:
+    clean:
 
 	rm myapp main.o my.o
 
@@ -89,6 +89,28 @@ make是如何工作的
 ## 任务1
 
 1. 创建hello.c文件，编写一个简单的helloworld程序
+
 2. 使用命令行的方法手动编译hello.c文件
-3. 学生查询Makefile的相关资料，自主学习Makefile的基本书写规则
+
+3. 查询Makefile的相关资料，自主学习Makefile的基本书写规则
+
 4. 编写hello.c文件的Makefile文件，并使用命令生成可执行文件
+
+
+参考答案：
+
+
+    #include <stdlib.h>
+   
+    int main()
+    {
+      printf("hello.world!\n");
+      return 0;
+    }
+    makefile
+    hello : hello.o
+       cc -o hello hello.o
+    hello.o : hello.c
+       cc -c hello.c -o hello.o
+    clean :
+       rm -f hello.o
