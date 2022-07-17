@@ -35,9 +35,9 @@ Makefile的依赖关系：
 依赖关系定义了最终应用程序里的每个文件与源文件之间的关系。每个依赖关系由一个目标和一组该目标所依赖的源文件组成。规则则描述了如何通过这些依赖关系创建目标。依赖关系的写法如下：先写目标的名称，后面紧跟着一个冒号，接着是空格或制表符，最后是用空格或制表符隔开的文件列表，如：
 
     myapp：main.o my.o
-
+    
     main.o: main.c a.h
-
+    
     my.o: my.c b.h
 
 它表示目标myapp依赖于main.o和my.o，而main.o依赖于main.c和a.h，等等。这组依赖关系形成一个层次结构，它显示了源文件之间的关系，如果a.h发生了变化，就需要重新编译main.o。
@@ -45,7 +45,7 @@ Makefile的依赖关系：
 Makefile的规则：
 
     arget ... : prerequisites ... 
-
+    
             command 
 
 target也就是一个目标文件，可以是Object File，也可以是执行文件。prerequisites就是，要生成那个target所需要的文件或是目标。 command也就是make需要执行的命令。（任意的Shell命令）command一定要以Tab键开始，否者编译器无法识别command 
@@ -54,20 +54,20 @@ target也就是一个目标文件，可以是Object File，也可以是执行文
 一个简单的Makefile文件：
 
     myapp: main.o my.o
-
-	gcc –o myapp main.o my.o
-
+    
+    gcc –o myapp main.o my.o
+    
     main.o: main.c a.h
-
-	gcc –c main.c 
-
+    
+    gcc –c main.c 
+    
     my.o : my.c b.h
-
-	gcc –c my.c 
-
+    
+    gcc –c my.c 
+    
     clean:
-
-	rm myapp main.o my.o
+    
+    rm myapp main.o my.o
 
 在这个makefile中，目标文件（target）包含：执行文件myapp和中间目标文件（*.o），依赖文件（prerequisites）就是冒号后面的那些 .c 文件和 .h文件。每一个 .o 文件都有一组依赖文件，而这些 .o 文件又是执行文件 myapp的依赖文件。依赖关系的实质上就是说明了目标文件是由哪些文件生成的，换言之，目标文件是哪些文件更新的。 
 
@@ -86,7 +86,7 @@ make是如何工作的
 
 
 
-## 任务1
+## 任务
 
 1. 创建hello.c文件，编写一个简单的helloworld程序
 
@@ -101,7 +101,7 @@ make是如何工作的
 
 
     #include <stdlib.h>
-   
+       
     int main()
     {
       printf("hello.world!\n");
