@@ -90,6 +90,10 @@ http://segmentfault.com/a/1190000000374128
  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000
 
 
+
+
+
+
 ## 任务2：生成SSH密钥并添加到Gitlab账号
 
 描述：检查计算机现有SSH密钥；生成新的SSH密钥并添加到GitHub账户。
@@ -97,6 +101,78 @@ http://segmentfault.com/a/1190000000374128
 要求：成功使用SSH连接到GitHub。
 
 输出：操作过程中的截屏。
+
+**操作步骤**
+
+1）检查SSH密钥
+
+首先需要检查计算机上现有的SSH密钥。打开终端并输入：
+
+![img](clip_image001.png)
+
+检查是否存在 id_rsa.pub 或 id_dsa.pub。如果不存在任何一个则执行步骤2，否则可以直接跳到步骤3。
+
+2）生成新的SSH密钥
+
+为了生成新的SSH密钥，在终端中执行一下命令。确保邮箱地址换成正在使用的有效邮箱。当提示“enter a file in which to save the key”直接按回车继续，使用默认设置。
+
+![img](clip_image002.png)之后会提示输入密钥的密码。可以提供密码或直接回车跳过。
+
+![img](clip_image003.png)程序将输入类似以下内容：
+
+![img](clip_image004.png)将新密钥加入ssh-agent：
+
+![img](clip_image005.png)
+
+3）将SSH密钥添加到GitHub
+
+运行以下命令将密钥复制到剪贴板。
+
+![img](clip_image006.png)或者，可以打开~/.ssh/id_rsa.pub 文件，手动将其内容复制到剪贴板。
+
+在Github网站个人页面中，执行如下操作，将其加入Github。
+
+l 页面右上角的用户栏中，点击账户设置。
+
+![Account settings button](clip_image007.png)
+
+l 点击左侧导航栏中的[SSH Keys](https://github.com/settings/ssh)。
+
+![SSH Keys menu](clip_image008.png)
+
+l 点击Add SSH key。
+
+![SSH Key button](clip_image010.png)
+
+l 在Title栏中添加密钥描述，将密钥复制到“Key”一栏。
+
+![The key field](clip_image012.png)
+
+l 点击**Add key**。
+
+![The Add key button](clip_image013.png)
+
+输入GitHub密码以确认操作。
+
+4）为了确认之前的操作成功，尝试使用SSH连接到GitHub。当执行这一操作时会被提示输入建立SSH密钥时提供的密码（如果当时输入了密码）。
+
+ 
+
+打开终端并输入：
+
+![img](clip_image014.png)有可能会看到以下出错信息：
+
+![img](clip_image015.png)这是在一些Linux版本中的已知问题。参考[帮助文档](https://help.github.com/articles/error-agent-admitted-failure-to-sign)以查找解决方案。
+
+也可能会看到如下提示信息：
+
+![img](clip_image016.png)确认fingerprint与创建SSH密钥时所给出的内容一致，然后输入“yes”。
+
+![img](clip_image017.png)如果username是你的用户名，说明已经成功设置了SSH密钥。
+
+如果收到了一个包含“access denied”的提示信息，可以[阅读这些内容加以诊断](https://help.github.com/articles/error-permission-denied-publickey)。
+
+
 
 ## 任务3：在Gitlab中建立仓库并提交文档
 
@@ -112,6 +188,54 @@ http://segmentfault.com/a/1190000000374128
 对操作过程进行截屏。
 
 
+
+**输出结果**
+
+1）操作过程截屏及最终结果截屏
+
+![Your README has been created](clip_image002.jpg)
+
+ 
+
+**操作步骤**
+
+1）在GitHub中建立新的仓库，点击“New Repository”。
+
+![Click "New Repository](clip_image004.jpg)
+
+2）填入页面所需信息。完成后点击“Create Repository”。
+
+![Fill in the info](clip_image006.jpg)
+
+3）在仓库中建立README，创建README文件
+
+打开终端并输入以下命令：
+
+![img](clip_image007-165846181476216.png)编辑README文件，添加“Hello World!”作为内容。
+
+2）提交README文件
+
+![img](clip_image008-165846181476217.png)3）推送提交
+
+以上步骤都是在本地完成的。为了将仓库与GitHub同步，需要将本地仓库与远程仓库管理并推送内容。
+
+![img](clip_image009.png)
+
+git push -u origin master –f
+
+http://www.cnblogs.com/daemon369/p/3204646.html
+
+ 
+
+（提示： 远程URL地址应该与GitHub上建立的仓库相对应，并保证大小写一致。）
+
+在GitHub仓库中应该可以看到提交的README文件。
+
+![Your README has been created](clip_image010.jpg)
+
+
+
+
 ## 任务4：在Github中Fork一个仓库
 
 描述：
@@ -124,6 +248,46 @@ http://segmentfault.com/a/1190000000374128
 要求：
 
 成功完成以上任务，对过程进行截屏。
+
+**操作步骤**
+
+1）Fork “Spoon-Knife”仓库
+
+为了fork该项目，点击其仓库中的“Fork”按钮。
+
+![Click "Fork"](clip_image001-165846189460925.png)
+
+2）克隆fork到本地
+
+执行以下命令：
+
+![img](clip_image002-165846189461026.png)/索赔3）设置仓库远程映射
+
+当仓库被克隆下来后，它有一个默认的远程源 origin 指向刚fork到自己账户的仓库，而不是项目自己原本的仓库。为了跟踪项目源仓库，需要添加另一个远程源 upstream：
+
+![img](clip_image003-165846189461027.png)
+
+4）推送提交，对项目做出了修改后，可以提交到fork过来的仓库。
+
+![img](clip_image004-165846189461028.png)5）拉取项目自身仓库的内容
+
+当你fork的项目的源仓库内容由更新时，可以通过以下命令将其更新到本地。
+
+![img](clip_image005-165846189461030.png)Pull requests
+
+如果希望项目的原作者能够将你的修改合并到项目源仓库中，可以向其发送[pull request](https://help.github.com/articles/using-pull-requests)。
+
+6）取消关注源仓库
+
+当你fork了一个热门仓库时，很多该仓库的更新信息都会发送到你的账号。如果不想看到这些信息，在项目源仓库中点击“Watch”按钮，选择“Not Watching”。
+
+![Click "Unwatch"](clip_image007-165846189461029.png)
+
+7）删除fork
+
+可以使用与删除普通仓库一样的步骤删除fork过来的仓库。
+
+
 
 
 ## 任务5(可选)：掌握分支管理相关命令
